@@ -1,8 +1,13 @@
+class base {
+include sudo
+}
+
 node 'node1.pro-puppet.com' {
   package { 'vim-enhanced':
     ensure => present,
   }
-  include ::sudo
+  include base
+  include postfix
 }
 
 node /node2/ {
