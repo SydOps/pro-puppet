@@ -1,0 +1,14 @@
+{
+  "name": "propuppet-amanda",
+  "version": "0.1.0",
+  "author": "propuppet",
+  "summary": "p42",
+  "license": "Apache 2.0",
+  "source": "https://github.com/SydOps/pro-puppet",
+  "issues_url": "https://github.com/SydOps/pro-puppet/issues",
+  "project_page": "sample for pro-puppet book",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
